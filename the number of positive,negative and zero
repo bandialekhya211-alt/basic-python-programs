@@ -1,0 +1,4 @@
+num=int(input("enter a number:"))
+(num>0) and print ("the number is positive")
+(num<0) and print ("the number is negative")
+(num==0) and print ("the number is zero")
