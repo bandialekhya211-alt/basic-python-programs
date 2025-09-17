@@ -1,0 +1,6 @@
+a=input("enter the first name")
+b=input("enter the last name")
+a,b=b,a
+print("after swaping")
+print("a=",a)
+print("b=",b)
