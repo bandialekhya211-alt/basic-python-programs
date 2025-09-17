@@ -1,0 +1,4 @@
+num3=input("enter your third number")
+num4=input("enter your fourth number")
+print("enter your third number:",num3)
+print("enter your fourth number:",num4)
