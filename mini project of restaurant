@@ -1,0 +1,55 @@
+print("Welcome to ABC Restaurant")
+print("Choose your Menu")
+print("1. Tiffen Items")
+print("2. Lunch Meals")
+print("3. Juice Items")
+print("4. Snacks")
+print("5. Display all your Menu")
+print("6. Food Prices")
+print("7. Exit")
+
+choice = int(input("Enter your choice (1-7): "))
+
+if choice == 1:
+    print("Tiffen items - 100 rupees")
+    qty = int(input("Enter quantity: "))
+    print("Total quantity =", qty)
+    print("Total price =", qty * 100)
+
+elif choice == 2:
+    print("Lunch Meals - 150 rupees")
+    qty = int(input("Enter quantity: "))
+    print("Total quantity =", qty)
+    print("Total price =", qty * 150)
+
+elif choice == 3:
+    print("Juice Items - 50 rupees")
+    qty = int(input("Enter quantity: "))
+    print("Total quantity =", qty)
+    print("Total price =", qty * 50)
+
+elif choice == 4:
+    print("Snacks - 70 rupees")
+    qty = int(input("Enter quantity: "))
+    print("Total quantity =", qty)
+    print("Total price =", qty * 70)
+
+elif choice == 5:
+    print("------ Menu ------")
+    print("1. Tiffen items - 100 rupees")
+    print("2. Lunch Meals - 150 rupees")
+    print("3. Juice Items - 50 rupees")
+    print("4. Snacks - 70 rupees")
+
+elif choice == 6:
+    print("------ Food Prices ------")
+    print("Tiffen items : 100 rupees")
+    print("Lunch Meals  : 150 rupees")
+    print("Juice Items  : 50 rupees")
+    print("Snacks       : 70 rupees")
+
+elif choice == 7:
+    print("Thank you! Visit again ")
+
+else:
+    print("Invalid choice! Please enter a number between 1 and 7.")
